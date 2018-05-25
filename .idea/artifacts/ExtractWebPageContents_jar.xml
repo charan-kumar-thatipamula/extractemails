@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ExtractWebPageContents:jar">
+    <output-path>$PROJECT_DIR$/classes/artifacts/ExtractWebPageContents_jar</output-path>
+    <root id="archive" name="ExtractWebPageContents.jar">
+      <element id="module-output" name="ExtractWebPageContents" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/javax.mail.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/org.json.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

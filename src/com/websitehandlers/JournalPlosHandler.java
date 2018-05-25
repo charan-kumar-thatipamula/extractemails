@@ -3,6 +3,10 @@ package com.websitehandlers;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import com.factory.ResponseHandlerFactory;
 import com.httprequest.SendRequest;
@@ -11,6 +15,7 @@ import com.util.ResponseHandler;
 public class JournalPlosHandler implements WebsiteHandler{
 	String url;
 	String outputFile;
+	Map<String, String> emails;
 	public JournalPlosHandler(String url) {
 		this.url = url;
 	}
@@ -33,13 +38,21 @@ public class JournalPlosHandler implements WebsiteHandler{
 	private void handleJournals(String[] journals) {
 		String domain = "http://journals.plos.org";
 		String contents = getHeader();
+		int i = 0;
+		emails = new HashMap<>();
 		for (String journal : journals) {
 			journal = journal.replace("/article?", "/article/authors?");
 			journal = domain + journal;
 //			System.out.println(journal);
 			System.out.println("Journal: " + journal);
 			String details  = getDetails(journal);
-			contents = contents.concat(details);
+			if (details != null) {
+				contents = contents.concat(details);
+			}
+			i++;
+//			if (i == 5) {
+//				break;
+//			}
 //			System.out.println("\n");
 //			break;
 		}
@@ -102,6 +115,11 @@ public class JournalPlosHandler implements WebsiteHandler{
 			name = name.replaceAll(",", "");
 			details = details.concat(name + ",");
 			details = details.concat(email);
+			if (emails.get(email) != null) {
+				return null;
+			} else {
+				emails.put(email, "yes");
+			}
 //			System.out.println("name: " + name);
 		} catch (Exception e) {
 			System.out.println("Exception in handleJournals JournalPlosHandler: " + e.getMessage());
@@ -134,5 +152,13 @@ public class JournalPlosHandler implements WebsiteHandler{
 	}
 	public String getOutputFileName() {
 		return this.outputFile;
+	}
+
+	public Map<String, String> getEmails() {
+		return emails;
+	}
+
+	public void setEmails(Map<String, String> emails) {
+		this.emails = emails;
 	}
 }
