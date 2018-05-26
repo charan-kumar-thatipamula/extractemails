@@ -7,17 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccf5e580-8acc-4f4b-9739-ea6bea9053a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/com/factory/ResponseHandlerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/factory/ResponseHandlerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/httprequest/SendRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/httprequest/SendRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/main/TriggerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/main/TriggerApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/util/JsonResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/util/JsonResponseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/util/ResponseHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/util/ResponseHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/util/journalsplos/JsonResponseHandlerJP.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/util/journalsplos/JsonResponseHandlerJP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/websitehandlers/JournalPlosHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/websitehandlers/JournalPlosHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/websitehandlers/WebsiteHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/websitehandlers/WebsiteHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/websitehandlers/WebsiteHandlerFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/websitehandlers/WebsiteHandlerFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/main/TriggerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/main/TriggerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/websitehandlers/JournalPlosHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/websitehandlers/JournalPlosHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/charan/TriggerSendEmails.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/charan/TriggerSendEmails.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,9 +24,10 @@
       <file leaf-file-name="EmailSendService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/charan/email/EmailSendService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-394">
-              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            <state relative-caret-position="76">
+              <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#198#199#0" expanded="true" />
                 <element signature="e#223#224#0" expanded="true" />
                 <element signature="e#258#259#0" expanded="true" />
@@ -49,8 +42,8 @@
       <file leaf-file-name="TriggerApp.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/main/TriggerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="-54">
+              <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -64,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JournalPlosHandler.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JournalPlosHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/websitehandlers/JournalPlosHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-870">
-              <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+            <state>
+              <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
               <folding>
                 <element signature="e#4304#4305#0" expanded="true" />
                 <element signature="e#4324#4325#0" expanded="true" />
@@ -82,8 +75,8 @@
       <file leaf-file-name="TriggerSendEmails.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/charan/TriggerSendEmails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="77" column="67" lean-forward="true" selection-start-line="77" selection-start-column="67" selection-end-line="77" selection-end-column="67" />
+            <state relative-caret-position="333">
+              <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
               <folding>
                 <element signature="e#713#714#0" expanded="true" />
                 <element signature="e#761#762#0" expanded="true" />
@@ -92,11 +85,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="4" selection-start-column="4" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SendEmailWrapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/charan/SendEmailWrapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="EmailFromTemplate.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/charan/email/EmailFromTemplate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+            <state relative-caret-position="-56">
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -130,12 +144,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/charan/SendEmailWrapper.java" />
         <option value="$PROJECT_DIR$/src/com/charan/email/EmailSendService.java" />
-        <option value="$PROJECT_DIR$/src/com/charan/TriggerSendEmails.java" />
         <option value="$PROJECT_DIR$/src/com/charan/email/Email.java" />
         <option value="$PROJECT_DIR$/src/com/websitehandlers/WebsiteHandler.java" />
         <option value="$PROJECT_DIR$/src/com/main/TriggerApp.java" />
         <option value="$PROJECT_DIR$/src/com/websitehandlers/JournalPlosHandler.java" />
         <option value="$PROJECT_DIR$/src/com/charan/email/EmailFromTemplate.java" />
+        <option value="$PROJECT_DIR$/src/com/charan/TriggerSendEmails.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -157,46 +172,6 @@
             <path>
               <item name="ExtractWebPageContents" type="b2602c69:ProjectViewProjectNode" />
               <item name="extractemails" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExtractWebPageContents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="extractemails" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExtractWebPageContents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="extractemails" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExtractWebPageContents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="extractemails" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="charan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExtractWebPageContents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="extractemails" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="charan" type="462c0819:PsiDirectoryNode" />
-              <item name="email" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExtractWebPageContents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="extractemails" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ExtractWebPageContents" type="b2602c69:ProjectViewProjectNode" />
-              <item name="extractemails" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="websitehandlers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -329,7 +304,7 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39165545" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12382234" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
@@ -449,16 +424,6 @@
     <entry file="file://$PROJECT_DIR$/emailtemplate.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/charan/SendEmailWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/charan/email/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102">
@@ -479,11 +444,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/websitehandlers/JournalPlosHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" lean-forward="true" selection-start-column="28" selection-end-column="28" />
+          <folding>
+            <element signature="e#4304#4305#0" expanded="true" />
+            <element signature="e#4324#4325#0" expanded="true" />
+            <element signature="e#4366#4367#0" expanded="true" />
+            <element signature="e#4393#4394#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/charan/SendEmailWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/charan/email/EmailSendService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-394">
-          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        <state relative-caret-position="76">
+          <caret line="58" column="40" lean-forward="true" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#198#199#0" expanded="true" />
             <element signature="e#223#224#0" expanded="true" />
             <element signature="e#258#259#0" expanded="true" />
@@ -496,15 +485,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/main/TriggerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="-54">
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/charan/email/EmailFromTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/charan/TriggerSendEmails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="77" column="67" lean-forward="true" selection-start-line="77" selection-start-column="67" selection-end-line="77" selection-end-column="67" />
+        <state relative-caret-position="333">
+          <caret line="85" column="38" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
           <folding>
             <element signature="e#713#714#0" expanded="true" />
             <element signature="e#761#762#0" expanded="true" />
@@ -512,23 +508,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/charan/email/EmailFromTemplate.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/websitehandlers/JournalPlosHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="56" column="18" lean-forward="true" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
-          <folding>
-            <element signature="e#4304#4305#0" expanded="true" />
-            <element signature="e#4324#4325#0" expanded="true" />
-            <element signature="e#4366#4367#0" expanded="true" />
-            <element signature="e#4393#4394#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
