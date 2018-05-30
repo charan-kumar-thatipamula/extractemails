@@ -61,12 +61,12 @@ public class EmailFromTemplate {
         email.setTo(new String[]{getEmail()});
         email.setSubject("Share your work through JCRM"); // getTitle());
         email.setBody(template);
-        email.setFrom("editor.jcrm@clinicalstudiesjournal.com");
-        email.setPwd("test123!@#");
+//        email.setFrom("editor.jcrm@clinicalstudiesjournal.com");
+//        email.setPwd("test123!@#");
 
-//        email.setFrom("charant.lgp@gmail.com");
-//        email.setPwd("baaaalaiah");
-//        email.setTo(new String[]{"charant.me.csa@gmail.com"});
+        email.setFrom("charant.lgp@gmail.com");
+        email.setPwd("baaaalaiah");
+        email.setTo(new String[]{"charant.me.csa@gmail.com"});
 
         return email;
     }
