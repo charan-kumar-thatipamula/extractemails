@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ccf5e580-8acc-4f4b-9739-ea6bea9053a2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExtractWebPageContents.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExtractWebPageContents.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/charan/TriggerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/charan/TriggerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/charan/communication/TriggerSendEmails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/charan/communication/TriggerSendEmails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/charan/communication/email/EmailFromTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/charan/communication/email/GetEmailFromTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/charan/websites/AbstractWebsiteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/charan/websites/AbstractWebsiteHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/charan/websites/journalplos/JournalPlosHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/charan/websites/journalplos/JournalPlosHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/charan/websites/sciencedirect/ExtractJournalMetadataSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/charan/websites/sciencedirect/ExtractJournalMetadataSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/charan/websites/sciencedirect/ScienceDirectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/charan/websites/sciencedirect/ScienceDirectHandler.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,6 +37,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="TriggerApp.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/charan/TriggerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="EmailSendService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/charan/communication/email/EmailSendService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -111,7 +112,6 @@
         <option value="$PROJECT_DIR$/src/com/charan/websites/WebsiteHandlerFactory.java" />
         <option value="$PROJECT_DIR$/src/com/charan/websites/sciencedirect/ScienceDirectHandlerI.java" />
         <option value="$PROJECT_DIR$/src/com/charan/websites/sciencedirect/ScienceDirectHandlerAbstract.java" />
-        <option value="$PROJECT_DIR$/src/com/charan/TriggerApp.java" />
         <option value="$PROJECT_DIR$/src/com/charan/config/AppConfig.java" />
         <option value="$PROJECT_DIR$/src/com/charan/config/Config.java" />
         <option value="$PROJECT_DIR$/src/com/charan/file/CSVRow.java" />
@@ -121,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/com/charan/websites/sciencedirect/ScienceDirectHandler.java" />
         <option value="$PROJECT_DIR$/src/com/charan/communication/email/GetEmailFromTemplate.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/com/charan/TriggerApp.java" />
       </list>
     </option>
   </component>
@@ -333,12 +334,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24183007" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37091503" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3184569" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3184569" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.82679737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -672,13 +673,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/charan/TriggerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/emailtemplate.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -791,6 +785,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/charan/TriggerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
         </state>
       </provider>
     </entry>
