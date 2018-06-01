@@ -107,9 +107,9 @@ public class JournalPlosHandler extends AbstractWebsiteHandler {
 			}
 		}
 	}
-	private String getHeader() {
-		return "Title,Author,Email" + "\n";
-	}
+//	private String getHeader() {
+//		return "Title,Author,Email" + "\n";
+//	}
 	private String getDetails(String journal) {
 		String details = "";
 		SendRequest sReq = new SendRequest();
@@ -122,7 +122,7 @@ public class JournalPlosHandler extends AbstractWebsiteHandler {
 			String title = extractTitle(response);
 //			System.out.println("title: " + title);
 			title = title.replaceAll(",", "");
-			details = details.concat(title + ",");
+//			details = details.concat(title + ",");
 			int start = response.indexOf("mailto:");
 			int last = response.indexOf("\">", start);
 			String email = response.substring(start + "mailto:".length(), last);
@@ -143,7 +143,8 @@ public class JournalPlosHandler extends AbstractWebsiteHandler {
 			}
 			name = name.replaceAll(",", "");
 			details = details.concat(name + ",");
-			details = details.concat(email);
+			details = details.concat(email + ",");
+			details = details.concat(title);
 			if (emails.get(email) != null) {
 				return null;
 			} else {

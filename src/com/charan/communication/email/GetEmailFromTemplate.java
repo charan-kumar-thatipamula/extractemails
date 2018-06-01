@@ -6,19 +6,19 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class EmailFromTemplate {
+public class GetEmailFromTemplate {
     String title;
     String author;
     String email;
     String templatePath;
 
-    public EmailFromTemplate(String title, String author, String email) {
+    public GetEmailFromTemplate(String title, String author, String email) {
         this.title = title;
         this.author = author;
         this.email = email;
     }
 
-    public EmailFromTemplate() {
+    public GetEmailFromTemplate() {
         
     }
 
@@ -64,8 +64,8 @@ public class EmailFromTemplate {
 //        email.setFrom("editor.jcrm@clinicalstudiesjournal.com");
 //        email.setPwd("test123!@#");
 
-        email.setFrom("charant.lgp@gmail.com");
-        email.setPwd("baaaalaiah");
+//        email.setFrom("charant.lgp@gmail.com");
+//        email.setPwd("baaaalaiah");
         email.setTo(new String[]{"charant.me.csa@gmail.com"});
 
         return email;

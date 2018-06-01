@@ -33,7 +33,7 @@ public class TriggerApp {
 			sendEmailWrapper.addCSVFileJobs(wh.getOutputFileName());
 		}
 		scanner.close();
-//		sendEmailWrapper.triggerEmail();
+		sendEmailWrapper.triggerEmail();
 	}
 
 	public static void main(String[] args) {

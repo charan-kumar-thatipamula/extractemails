@@ -2,7 +2,7 @@ package com.charan.communication;
 
 import com.charan.communication.csv.ReadCSV;
 import com.charan.communication.email.Email;
-import com.charan.communication.email.EmailFromTemplate;
+import com.charan.communication.email.GetEmailFromTemplate;
 import com.charan.communication.email.EmailSendService;
 
 import java.nio.file.Path;
@@ -71,7 +71,7 @@ public class TriggerSendEmails implements Runnable{
             }
             templatePath = Paths.get("emailtemplate.txt").toAbsolutePath().toString();
 
-            EmailFromTemplate et = new EmailFromTemplate();
+            GetEmailFromTemplate et = new GetEmailFromTemplate();
             et.setTemplateFilePath(templatePath);
 
             Email em =  et.extractEmail(contents);

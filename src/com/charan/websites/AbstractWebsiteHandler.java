@@ -11,7 +11,7 @@ public abstract class AbstractWebsiteHandler {
 
 	public void handleRequest() {
 		List<String> journalUrls = extractJournalUrls(getUrl());
-		String header = "Title,Author,Email" + "\n";
+		String header = "Author,Email,Title" + "\n";
 		String fData = processJournals(journalUrls);
 		fData = header + fData;
 //		ExtractJournalMetadataSD extractJournalMetadataSD = new ExtractJournalMetadataSD();
