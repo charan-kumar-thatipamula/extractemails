@@ -38,7 +38,7 @@ public class ExtractJournalMetadataSD {
 //                    String email = "";
                     // extract AuthorName and AuthorEmail looping on all the authors
                     LinkedList<String> list = getAuthorNameEmail(jsonArray);
-                    list.addFirst(doc.title());
+                    list.addLast(doc.title());
                     journalMetadata = generateRow(list);
 //                    journalMetadata = doc.title();
 //                    if (journalMetadata.indexOf(" - ScienceDirect") != -1) {
@@ -97,11 +97,12 @@ public class ExtractJournalMetadataSD {
     }
 
     private String generateRow(LinkedList<String> list) {
-        String title = list.get(0);
+        String title = list.getLast();
         if (title.indexOf(" - ScienceDirect") != -1) {
             title = title.substring(0, title.indexOf(" - ScienceDirect"));
         }
-        list.set(0, title);
+        title = title.replaceAll(",", "");
+        list.set(list.size()-1, title);
         String row = String.join(",", list);
         row = row + "\n";
 //        System.out.println(row);

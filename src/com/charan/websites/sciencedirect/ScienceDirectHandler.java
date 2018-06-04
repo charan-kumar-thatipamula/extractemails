@@ -43,7 +43,7 @@ public class ScienceDirectHandler extends AbstractWebsiteHandler {
 //			String contents = getJournalMetadata(journalUrl);
 			if (contents.indexOf("@") == -1)
 				continue;
-			System.out.println("contents: " + contents);
+//			System.out.println("contents: " + contents);
 			fData = fData + contents;
 		}
 		return fData;
